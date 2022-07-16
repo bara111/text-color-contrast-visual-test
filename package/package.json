@@ -1,0 +1,22 @@
+{
+  "name": "text-color-contrast-visual-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bara111/text-color-contrast-visual-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bara111/text-color-contrast-visual-test/issues"
+  },
+  "homepage": "https://github.com/bara111/text-color-contrast-visual-test#readme",
+  "dependencies": {
+    "cypress": "^10.3.0"
+  }
+}
