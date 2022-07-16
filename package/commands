@@ -1,8 +1,0 @@
-
-
-Cypress.Commands.add('verifyTextReadablity', (email, password) => { 
-
-c
-
-
- })
