@@ -5,6 +5,6 @@ describe('Testing text visual "verifyTextReadablity" command ', () => {
   })
 
   it('verify that Todo header text is visual to the eye with threshhold of "5"', () => {
-    cy.verifyTextReadablity("h1","body",5)
+    cy.verifyTextReadablity("h1","body",10)
   })
 })
