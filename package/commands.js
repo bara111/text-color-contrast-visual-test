@@ -38,9 +38,6 @@ Cypress.Commands.add('verifyTextReadablity', (textLoactor, backgroundLocator,thr
   
       cy.then(() => {
         if(threshold >= ratio){
-          cy.log(threshold)
-          cy.log(ratio)
-
          throw new Error(`Expected text with Locator: "${textLoactor}" to readable with the threshold greater than ${threshold} but value was ${ratio}`)
         }
       })
